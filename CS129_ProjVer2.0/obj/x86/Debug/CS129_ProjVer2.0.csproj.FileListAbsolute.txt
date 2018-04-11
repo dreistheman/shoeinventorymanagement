@@ -1,0 +1,40 @@
+c:\users\yogi\documents\visual studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\CS129_ProjVer2.0.exe
+c:\users\yogi\documents\visual studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\CS129_ProjVer2.0.pdb
+c:\users\yogi\documents\visual studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2._0.Form1.resources
+c:\users\yogi\documents\visual studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2._0.MainForm.resources
+c:\users\yogi\documents\visual studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2._0.Properties.Resources.resources
+c:\users\yogi\documents\visual studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.csproj.GenerateResource.Cache
+c:\users\yogi\documents\visual studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.exe
+c:\users\yogi\documents\visual studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.pdb
+c:\users\yogi\documents\visual studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\Inventory.mdf
+c:\users\yogi\documents\visual studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\Inventory_log.ldf
+c:\users\yogi\documents\visual studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\CS129_ProjVer2.0.exe.config
+C:\Users\YOGI\Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.csprojResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\CS129_ProjVer2.0.exe.config
+D:\My Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.exe
+D:\My Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.pdb
+D:\My Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\Inventory.mdf
+D:\My Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\Inventory_log.ldf
+D:\My Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\CS129_ProjVer2.0.exe
+D:\My Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\CS129_ProjVer2.0.pdb
+D:\My Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.csprojResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2._0.Form1.resources
+D:\My Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2._0.MainForm.resources
+D:\My Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2._0.Properties.Resources.resources
+D:\My Documents\Visual Studio 2010\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.csproj.GenerateResource.Cache
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\CS129_ProjVer2.0.exe.config
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.pdb
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\Inventory.mdf
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\Inventory_log.ldf
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\CS129_ProjVer2.0.exe.config
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\CS129_ProjVer2.0.exe
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\bin\Debug\CS129_ProjVer2.0.pdb
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2._0.Form1.resources
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2._0.MainForm.resources
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2._0.Properties.Resources.resources
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.csproj.GenerateResource.cache
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.exe
+C:\Users\Andre\Documents\Developer files\Visual Studio 2015\Projects\CS129_ProjVer2.0\CS129_ProjVer2.0\obj\x86\Debug\CS129_ProjVer2.0.pdb
