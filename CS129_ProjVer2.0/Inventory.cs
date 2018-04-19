@@ -51,10 +51,14 @@ namespace CS129_ProjVer2._0
 
         }
 
-
-
-
-
-
+        public Inventory(int idNo, int sSize, int quantity, string description, string brand, string color)
+        {
+            this.idNo = idNo;
+            this.sSize = sSize;
+            this.quantity = quantity;
+            this.description = description;
+            this.brand = brand;
+            this.color = color;
+        }
     }
 }

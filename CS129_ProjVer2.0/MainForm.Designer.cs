@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cmbColumn = new System.Windows.Forms.ComboBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -38,7 +42,7 @@
             this.txtColor = new System.Windows.Forms.TextBox();
             this.txtShoe = new System.Windows.Forms.TextBox();
             this.txtBrand = new System.Windows.Forms.TextBox();
-            this.btnSubmit = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.txtDesc = new System.Windows.Forms.TextBox();
             this.txtID = new System.Windows.Forms.TextBox();
             this.btnClear = new System.Windows.Forms.Button();
@@ -59,20 +63,66 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.cmbColumn);
+            this.groupBox1.Controls.Add(this.txtSearch);
             this.groupBox1.Controls.Add(this.groupBox4);
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(831, 477);
+            this.groupBox1.Size = new System.Drawing.Size(831, 480);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "PRODUCT";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(12, 23);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(41, 13);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Search";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(300, 23);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(55, 13);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "Search by";
+            // 
+            // cmbColumn
+            // 
+            this.cmbColumn.FormattingEnabled = true;
+            this.cmbColumn.Items.AddRange(new object[] {
+            "ID",
+            "Description",
+            "Brand",
+            "Shoe Size",
+            "Color",
+            "Quantity"});
+            this.cmbColumn.Location = new System.Drawing.Point(361, 19);
+            this.cmbColumn.Name = "cmbColumn";
+            this.cmbColumn.Size = new System.Drawing.Size(121, 21);
+            this.cmbColumn.TabIndex = 4;
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(59, 19);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(235, 20);
+            this.txtSearch.TabIndex = 3;
+            this.txtSearch.TextChanged += new System.EventHandler(this.search);
+            this.txtSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.searchInventory);
+            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.button6);
-            this.groupBox4.Location = new System.Drawing.Point(509, 354);
+            this.groupBox4.Location = new System.Drawing.Point(506, 389);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(303, 62);
             this.groupBox4.TabIndex = 2;
@@ -96,7 +146,7 @@
             this.groupBox3.Controls.Add(this.txtColor);
             this.groupBox3.Controls.Add(this.txtShoe);
             this.groupBox3.Controls.Add(this.txtBrand);
-            this.groupBox3.Controls.Add(this.btnSubmit);
+            this.groupBox3.Controls.Add(this.btnAdd);
             this.groupBox3.Controls.Add(this.txtDesc);
             this.groupBox3.Controls.Add(this.txtID);
             this.groupBox3.Controls.Add(this.btnClear);
@@ -106,7 +156,7 @@
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Location = new System.Drawing.Point(509, 20);
+            this.groupBox3.Location = new System.Drawing.Point(506, 55);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(303, 328);
             this.groupBox3.TabIndex = 1;
@@ -162,15 +212,15 @@
             this.txtBrand.Size = new System.Drawing.Size(177, 20);
             this.txtBrand.TabIndex = 10;
             // 
-            // btnSubmit
+            // btnAdd
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(60, 244);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(92, 27);
-            this.btnSubmit.TabIndex = 6;
-            this.btnSubmit.Text = "Add";
-            this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.Click += new System.EventHandler(this.button4_Click);
+            this.btnAdd.Location = new System.Drawing.Point(60, 244);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(92, 27);
+            this.btnAdd.TabIndex = 6;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // txtDesc
             // 
@@ -254,7 +304,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dataGridView1);
-            this.groupBox2.Location = new System.Drawing.Point(18, 20);
+            this.groupBox2.Location = new System.Drawing.Point(15, 55);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(473, 396);
             this.groupBox2.TabIndex = 0;
@@ -276,12 +326,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(855, 431);
+            this.ClientSize = new System.Drawing.Size(855, 531);
             this.Controls.Add(this.groupBox1);
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -298,7 +349,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -315,5 +366,9 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox cmbColumn;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Label label8;
     }
 }
